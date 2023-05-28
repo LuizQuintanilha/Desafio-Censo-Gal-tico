@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Censo Galático</title>
+</head>
+<body>
+  <div>
+    <h1>Planetas</h1>
+    <input type="text" placeholder="Buscar por planeta" id="searchInput">
+    <button onclick="searchPlanets()">Buscar</button>
+  </div>
+
+  <ul id="result"></ul>
+
+  <table id="residentsTable" style="display: none;">
+    <thead>
+      <tr>
+        <th>Habitante</th>
+        <th>Data de Nascimento</th>
+      </tr>
+    </thead>
+    <tbody id="residentsBody"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
